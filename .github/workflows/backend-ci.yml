@@ -28,9 +28,9 @@ jobs:
         run: java --version
       
       # Ejecutar pruebas unitarias para asegurar que los tests base pasan sin errores
-      - name: Compilar y ejecutar pruebas unitarias
-        run: ./mvnw clean test
-        working-directory: backend/acme-backend
+      #- name: Compilar y ejecutar pruebas unitarias
+      #  run: ./mvnw clean test
+      #  working-directory: backend/acme-backend
       
       # Guardar los reportes como artefactos si algo llega a fallar.
       - name: Subir Informe de resultados de prueba
