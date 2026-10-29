@@ -21,6 +21,9 @@ jobs:
           distribution: temurin
           java-version: '26'
           cache: maven
+      
+      # Verificar la versión de Java utilizada
+      - name: Verificar versión de java
         run: java --version
       
       # Ejecutar pruebas unitarias para asegurar que los tests base pasan sin errores
